@@ -370,19 +370,19 @@ Vérification du stock en cours
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Are you a citizen of SENEGAL?",
+              title: "Êtes-vous citoyen du Sénégal?",
               answers: [ { text: "Yes" }, { text: "No" } ]
             },
                                                              {
-              title: "Do you have a SENEGALESE ID?",
+              title: "Avez-vous une carte d’identité sénégalaise?",
               answers: [ { text: "Yes" }, { text: "No" } ]
             },
             {
-              title: "Choose your Gender?",
+              title: "Choisissez votre sexe?",
               answers: [ { text: "Male" }, { text: "Female" } ]
             },
             {
-              title: "Select Your Age Range?",
+              title: "Sélectionnez votre tranche d’âge?",
               answers: [ { text: "18 - 20 years" }, { text: "21 - 25 years" }, { text: "26 - 30 years" }, { text: "30 years Above" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
